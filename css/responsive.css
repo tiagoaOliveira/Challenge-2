@@ -1,0 +1,38 @@
+@media (max-width: 849.9px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .card1 {
+    left: 0rem; 
+    top: 0rem;
+  }
+  .card2 {
+    right: 0rem;
+  }
+  .card3 {
+    left: 0rem; 
+  }
+  .card4 {
+    top: 0rem;
+    right: 0rem; 
+  }
+}
+
+@media (max-width: 499.9px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .cards {
+    width: 70vw;
+  }
+  header .title {
+    font-size: 1.7rem;  
+    margin-bottom: .7rem;
+  }
+  header .subtitle {
+    font-size: 1.7rem;
+    font-weight: bolder;
+  }
+}
